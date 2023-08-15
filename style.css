@@ -77,6 +77,12 @@ ul {
     margin: 32px;
 }
 
+.txt-container button {
+    background-color: black;
+    color: #FF0000;
+    border: 1px solid black;
+}
+
 .section-2 {
     width: 100%;
     display: flex;
@@ -110,8 +116,7 @@ figcaption {
 }
 
 .quote-section {
-    margin: 40px;
-    padding: 16px;
+    margin: 40px 0;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -128,6 +133,7 @@ figcaption {
 .sign-up {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .sign-up-container {
@@ -154,5 +160,7 @@ figcaption {
 
 .footer {
     text-align: center;
+    background-color: black;
+    color: #FF0000;
 }
 
