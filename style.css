@@ -144,6 +144,8 @@ figcaption {
     height: 21px;
     flex-grow: 0;
     margin: 16px;
+    background-color: #FF0000;
+    border: 1px solid black;
 }
 
 #action {
