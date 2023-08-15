@@ -11,9 +11,12 @@ body {
 .section-1 {
     background-color: #1F2937;
     width: 100%;
-    padding: 8px;
+    margin: 0;
+    padding: 0px;
+    padding-top: 16px;
     background-color: #FF0000;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
 }
@@ -35,7 +38,6 @@ body {
 #emblem {
     width: 100px;
     height: auto;
-    align-self: flex-start;
 }
 
 .header {
@@ -87,6 +89,8 @@ ul {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -95,6 +99,7 @@ h2 {
 
 .players {
     display: flex;
+    flex: 1;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -133,7 +138,7 @@ figcaption {
 .sign-up {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .sign-up-container {
@@ -159,8 +164,12 @@ figcaption {
 }
 
 .footer {
-    text-align: center;
     background-color: black;
     color: #FF0000;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
